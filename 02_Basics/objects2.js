@@ -72,3 +72,26 @@ const user = [
     }
 ]
 console.log(user[1].id)
+
+const course = {
+    coursename : "js in hindi",
+    price : "999",
+    courseinstructor : "saurav"
+}
+
+// course.courseinstructor
+ 
+const {courseinstructor : mynn} = course //destructure of value in js
+        
+console.log(mynn);
+
+// {
+//     name : "saurav",
+//     coursename: "js in hindi",     //json syntex
+//     price : "free"
+// }
+
+
+
+
+
