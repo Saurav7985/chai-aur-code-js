@@ -51,4 +51,4 @@ console.log(addtwo(5,6));
 
 const myArray = [2,5,6,7,8]
 
-myArray.forEach(() => ())
+// myArray.forEach(() => ()) example.
