@@ -59,3 +59,25 @@ if (LoggedInFromEmil || LoggedInFromGoogle) {
     console.log("Allow to Logged in ");
     
 }
+
+// Nullish Coalescing Operator (??) : Null Undefined
+
+let val1;
+
+// val1 = 5 ?? 10 
+// val1 = null ?? 10
+// val1 = undefined ?? 15
+// val1 = Null ?? 10 ?? 15
+
+// console.log(val1);
+
+
+
+//+++++++++++++++++++++++++++++ Terniary operator.+++++++++++++++++++++++
+
+//Conditation ? true : False
+
+const iceTea = 100
+
+iceTea >= 50 ? console.log("!~! good !~! ") : console.log(" oopss!! ") ;
+
