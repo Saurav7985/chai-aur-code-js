@@ -27,6 +27,12 @@ for (const [key,value] of map) {
     
 }
 
+for (const key in map) {
+  //it does not iterate like object so it cant give anything.
+    console.log(`${key}`);
+
+}
+
 const myobj = {
     'game1' : 'NFS',
     'game2' : 'SpiderMan'
