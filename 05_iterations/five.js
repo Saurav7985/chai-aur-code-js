@@ -1,5 +1,11 @@
 const array = ["js","ruby","python","cpp"]
 
+const values = array.forEach((element) => {
+    console.log(element);
+});
+
+
+
 array.forEach((element) => {
     // console.log(element);
 });
