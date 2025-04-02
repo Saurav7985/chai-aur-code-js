@@ -25,7 +25,7 @@ mynums.forEach(num => {
 // console.log(NewNumbs); //we also work with it like this
 
 const books = [
-    {title : "Book One" , genre : 'history' , publish: 1979 , edition : 1998},
+    {title : "Book One" , genre : 'History' , publish: 1999 , edition : 1998},
     {title : "Book Two" , genre : 'Action' , publish: 1976 , edition : 1997},
     {title : "Book Three" , genre : 'Comedy' , publish: 1956 , edition : 1994},
     {title : "Book Four" , genre : 'Comedy' , publish: 1996 , edition : 1999},
@@ -35,9 +35,9 @@ const books = [
     {title : "Book Eight" , genre : 'Comedy' , publish: 1989 , edition : 1993}
 ]
 
-let userbook = books.filter((bk) => bk.genre == 'history')
+// let userbook = books.filter((bk) => bk.genre == 'history')
 
- userbook = books.filter((bk) => {return bk.publish <= 2000})
+ userbook = books.filter((bk) => {return bk.publish >=1995  && bk.genre ==="History"})
 
 console.log(userbook);
 
