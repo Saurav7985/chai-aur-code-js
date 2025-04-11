@@ -13,10 +13,37 @@
 </body>
     <script>
         function addLanguage (langname) {
-          const li =   document.createElement('li');
+          const li =   document.createElement('ul');
           li.innerHTML = `${langname}`;
           document.querySelector('.language').appendChild(li);
         }
-        addLanguage(python);
+        addLanguage("python")
+        addLanguage("typescript")
+
+        function addoptilanguage(langname){
+
+            const li = document.createElement('li');
+            li.appendChild(document.createTextNode(langname))
+            document.querySelector('.language').appendChild(li)
+
+        }
+        addoptilanguage("CSS");
+        addoptilanguage("Golan");
+
+        //Edit
+
+       const seclng =  document.querySelector("li:nth-child(2)")
+       const newline = document.createElement('li')
+       newline.textContent = "mojo";
+       seclng.replaceWith(newline)
+
+       //Edit
+       const secondlang = Document.querySelector("li : first-child")
+    secondlang.outerHTML = '<li>HEMO</li>'
+       
+    //Reomve
+    const lastlang = document.querySelector('li : first-child')
+    lastlang.remove()
+
     </script>
 </html>
