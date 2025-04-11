@@ -13,6 +13,13 @@
     console.log(div);
     div.className = "main"
     div.id =  Math.round(Math.random() *10 + 1)
-    
+    div.setAttribute("title","Generated title")
+    div.style.backgroundColor = "green"
+    div.style.padding = "12px"
+    div.innerText = "Chai or Code"
+    const addtext = document.createTextNode("chai or code")
+    div.appendChild(addtext)
+
+    document.body.appendChild(div)
 </script>
 </html>
